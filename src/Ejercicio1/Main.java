@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         TestPaintComponent frame = new TestPaintComponent();
         frame.setTitle("TestPaintComponent");
-        frame.setSize(600,400); //Tamaño del panel
+        frame.setSize(1000,550); //Tamaño del panel
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
